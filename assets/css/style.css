@@ -39,7 +39,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: onloadbg 2s 2s infinite;
+    animation: onloadbg 2s .5s infinite;
     transition: all .5s;
 }
 @keyframes onloadbg {
