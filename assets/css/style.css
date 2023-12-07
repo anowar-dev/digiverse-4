@@ -244,7 +244,11 @@ img{
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
 }
 .login{
-    background: linear-gradient(#ffffff, #e1f3fa, #a3bec9, #7498a7);    
+    background: linear-gradient(#ffffff, #e1f3fa, #a3bec9, #7498a7);
+    -webkit-min-height: 100vh !important;
+    -moz-min-height: 100vh !important;
+    -ms-min-height: 100vh !important;
+    min-height: 100vh !important;    
 }
 .login_main{
     width: 100%;
@@ -693,3 +697,8 @@ img{
         bottom: 25% !important;
     }
 }
+/* @media (min-height: 850px) {
+    .login{
+        height: 100vh;
+    }
+} */
