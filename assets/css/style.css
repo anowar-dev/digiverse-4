@@ -515,12 +515,14 @@ img{
     }
 
     /*----- Login page ----*/
-    .login_main{
-    padding: 4rem !important;
-    }
+
     .login_main{
         flex-direction: column-reverse !important;
-        padding: 4rem 7rem !important;
+        padding: 4rem 5rem !important;
+        width: 100%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .login_main .backToSignup{
         width: 100% !important;
@@ -564,7 +566,7 @@ img{
         margin-top: 9rem !important;
     }
     .login_main{
-        padding: 5rem !important;
+        padding: 3.5rem !important;
     }
 }
 
