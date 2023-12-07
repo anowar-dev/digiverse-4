@@ -1,6 +1,12 @@
 /* Reset CSS */
 *{
+    -moz-padding: 0;
+    -webkit-padding: 0;
+    -ms-padding: 0;
     padding: 0;
+    -webkit-margin: 0;
+    -moz-margin: 0;
+    -ms-margin: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -616,7 +622,7 @@ img{
         padding: 1rem 0 2rem 0;
     }
     .content .slider_main{
-        margin: 3rem auto !important;
+        margin: 3.5rem auto !important;
     }
 }
 
