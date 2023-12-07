@@ -148,7 +148,9 @@ img{
 .content .slider_main{
     width: 100%;
     max-width: 50rem;
-    margin: 5rem auto;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 .slider_box .slider_title{
@@ -620,9 +622,6 @@ img{
     }
     .login_footer{
         padding: 1rem 0 2rem 0;
-    }
-    .content .slider_main{
-        margin: 3.5rem auto !important;
     }
 }
 
