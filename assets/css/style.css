@@ -12,6 +12,7 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
+    background: linear-gradient(#ffffff, #e1f3fa, #a3bec9, #7498a7);
 }
 html{
     scroll-behavior: smooth;
@@ -118,13 +119,16 @@ img{
 .body{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#ffffff, #e1f3fa, #a3bec9, #7498a7);    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container .body_main{
     position: relative;
+}
+.header{
+    position: sticky;
+    top: 0;
 }
 .header_logo{
     width: 15rem;
@@ -235,21 +239,13 @@ img{
 /*==== Body End =====*/
 
 /*========= Login start ============*/
-.login_header{
-    position: fixed;
+.header_main{
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
     background: #f5fafc;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
-}
-.login{
-    background: linear-gradient(#ffffff, #e1f3fa, #a3bec9, #7498a7);
-    -webkit-min-height: 100vh !important;
-    -moz-min-height: 100vh !important;
-    -ms-min-height: 100vh !important;
-    min-height: 100vh !important;  
-    padding-bottom: 0;  
 }
 .login_main{
     width: 100%;
@@ -258,7 +254,7 @@ img{
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8rem;
+    margin-top: 4rem;
     padding: 5rem;
     border-radius: .5rem;
     display: flex;
@@ -352,19 +348,19 @@ img{
 .login_main.signup{
     flex-direction: row-reverse;
 }
-.login_footer{
+.footer_main{
     padding: 2rem 0;
 }
-.login_footer .login_social{
+.footer_main .login_social{
     width: 100%;
     text-align: right;
 }
-.login_footer .login_privacy{
+.footer_main .login_privacy{
     width: 100%;
     text-align: center;
     margin-top: 2rem;
 }
-.login_footer .login_privacy a{
+.footer_main .login_privacy a{
     font-size: .9rem;
     font-weight: 400;
     color: #2b3d66;
@@ -373,10 +369,10 @@ img{
     border-right: 1px solid #2b3d66;
     transform: .3s;
 }
-.login_footer .login_privacy a:hover{
+.footer_main .login_privacy a:hover{
     color: #000000;
 }
-.login_footer .login_privacy a:last-child{
+.footer_main .login_privacy a:last-child{
     border: unset;
 }
 .login_inner form .or{
@@ -430,7 +426,7 @@ img{
     width: 100%;
     max-width: 992px;
     background: #ffffff;
-    margin-top: 10rem;
+    margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5);
@@ -554,7 +550,7 @@ img{
         margin-right: auto;
         margin-bottom: 1rem;
     }
-    .login_footer .login_social{
+    .footer_main .login_social{
         text-align: center !important;
         margin-top: 1.5rem;
     }
@@ -563,10 +559,11 @@ img{
         line-height: 4.2rem;
     }
     .privacy_content{
-        margin-top: 9rem !important;
+        margin-top: 3.5rem !important;
     }
     .login_main{
         padding: 3.5rem !important;
+        margin-top: 3.5rem !important;
     }
 }
 
@@ -605,6 +602,7 @@ img{
     }
     .login_main{
         padding: 2rem 1rem !important;
+        margin-top: 3rem !important;
     }
     .login_main .login_inner .auth_title{
         font-size: 1.5rem !important;
@@ -632,9 +630,9 @@ img{
     }
     .privacy_content{
         padding: 0.5rem !important;
-        margin-top: 8rem !important;
+        margin-top: 3rem !important;
     }
-    .login_footer{
+    .footer_main{
         padding: 1rem 0 2rem 0;
     }
 }
