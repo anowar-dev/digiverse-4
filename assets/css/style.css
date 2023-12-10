@@ -69,7 +69,6 @@ img{
     margin-left: auto;
     margin-right: auto;
     animation: preload 2s infinite;
-    background: #ffffff;
     border-radius: .5rem;
 }
 .onLoad_disable .logo{
