@@ -10,7 +10,7 @@ $(window).on('load', function(){
   }, 2000)
     setTimeout(function(){
         okbtn.classList.add("ok_bdb");
-    }, 3000)
+    }, 2000)
     okbtn.addEventListener('click', function(){
         onLoadMain.classList.add('onLoadNone')
     })
