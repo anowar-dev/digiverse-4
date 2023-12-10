@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(#e1f3fa, #a3bec9, #7498a7);
+    background: rgb(1, 1, 79);
 }
 html{
     scroll-behavior: smooth;
@@ -189,14 +189,14 @@ img{
 .slider_box .slider_title{
     font-size: 2.4rem;
     font-weight: 900;
-    color: #495572;
+    color: #ffffff;
     line-height: 110%;
     margin-bottom: 0.4rem;
 }
 .slider_box .slider_text{
     font-size: 1.3rem;
     font-weight: 500;
-    color: #495572;
+    color: #ffffff;
     line-height: 120%;
 }
 .body_main .btns{
@@ -211,29 +211,17 @@ img{
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 700;
-    color: #ffffff;
-    background: #495572;
+    color: rgb(1, 1, 79);
+    background: #ffffff;
     padding: .6rem 2rem;
     border-radius: .4rem;
     margin: 0 .8rem;
     transition: all .3s;
 }
 .body_main .btns a:hover{
-    background: #30333c;
+    background: #4875fb;
 }
-.body_main .terms a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #3e4d62;
-    padding: 0 .8rem;
-    border-right: 2px solid #313d4f;
-    transition: .3s;
-}
-.body_main .terms a:hover{
-    color: #62728a;
-}
+
 .body_main .terms a:last-child{
     border-color: transparent !important;
 }
@@ -244,19 +232,13 @@ img{
     left: 50%;
     transform: translate(-50%);
 }
-.body_main .social{
-    width: fit-content;
-    position: fixed;
-    right: 3rem;
-    bottom: 1rem;
-}
 .social .social_inner a{
     margin-left: 0.4rem;
 }
 .social .social_inner a i{
     font-size: .9rem;
-    color: #ffffff;
-    background: #57606f;
+    color: rgb(1, 1, 79);
+    background: #273c75;
     width: 1.8rem;
     height: 1.8rem;
     line-height: 1.8rem;
@@ -267,6 +249,13 @@ img{
 .social .social_inner a i:hover{
     background: #273c75;
 }
+.footer_main.home_page_footer{
+    position: fixed !important;
+    width: 95%;
+    height: fit-content;
+    bottom: 0;
+    left: 2%;
+}
 /*==== Body End =====*/
 
 /*========= Login start ============*/
@@ -275,7 +264,7 @@ img{
     width: 100%;
     top: 0;
     left: 0;
-    background: #f5fafc;
+    background: #ebf7fb;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
 }
 .login_main{
@@ -397,7 +386,7 @@ img{
 }
 .footer_main .copyrights p{
     font-size: .9rem;
-    color: #2b3d66;
+    color: #707da0;
     font-weight: 400;
     margin-bottom: 0 !important;
 }
@@ -412,15 +401,15 @@ img{
 .footer_main .login_privacy a{
     font-size: .9rem;
     font-weight: 400;
-    color: #2b3d66;
+    color: #516186;
     text-decoration: none;
     padding: 0 1rem;
-    border-right: 1px solid #2b3d66;
+    border-right: 1px solid #4b5a7c;
     text-transform: uppercase;
     transition: .3s;
 }
 .footer_main .login_privacy a:hover{
-    color: #000000;
+    color: #9595c7;
 }
 .footer_main .login_privacy a:last-child{
     border: unset;
