@@ -237,7 +237,7 @@ img{
 .social .social_inner a i{
     font-size: .9rem;
     color: rgb(1, 1, 79);
-    background: #273c75;
+    background: #919dc1;
     width: 1.8rem;
     height: 1.8rem;
     line-height: 1.8rem;
@@ -370,9 +370,28 @@ img{
 .login_main.signup{
     flex-direction: row-reverse;
 }
+.login_btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+.login_btns .forgot{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #0a0a6d;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    transition: .3s;
+}
+.login_btns .forgot:hover{
+    text-decoration: underline;
+    color: #000000;
+}
 
 /*============= Footer section ===========*/
 .footer_main{
+    margin-top: 1rem;
     padding: 2rem 0;
     display: flex;
     justify-content: space-between;
@@ -385,9 +404,20 @@ img{
 }
 .footer_main .copyrights p{
     font-size: .9rem;
-    color: #707da0;
+    color: #919dc1;
     font-weight: 400;
     margin-bottom: 0 !important;
+}
+.footer_main .copyrights p a{
+    text-decoration: none;
+    font-size: .9rem;
+    color: #c3c3e2;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    transition: .3s;
+}
+.footer_main .copyrights p a:hover{
+    color: #919dc1;
 }
 .footer_main .login_social{
     width: 32%;
@@ -400,15 +430,15 @@ img{
 .footer_main .login_privacy a{
     font-size: .9rem;
     font-weight: 400;
-    color: #516186;
+    color: #919dc1;
     text-decoration: none;
     padding: 0 1rem;
-    border-right: 1px solid #4b5a7c;
+    border-right: 1px solid #919dc1;
     text-transform: uppercase;
     transition: .3s;
 }
 .footer_main .login_privacy a:hover{
-    color: #9595c7;
+    color: #c3c3e2;
 }
 .footer_main .login_privacy a:last-child{
     border: unset;
@@ -568,7 +598,22 @@ img{
         text-align: center;
         margin-bottom: 3rem;
     }
-    
+    .footer_main{
+        flex-direction: column-reverse;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    .footer_main .copyrights{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .footer_main .login_privacy{
+        width: 100% !important;
+    }
+    .footer_main .login_social{
+        width: 100% !important;
+        text-align: center;
+    }
 }
 
 /*----------- max-width: 768px -------------*/
